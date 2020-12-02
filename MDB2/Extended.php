@@ -446,8 +446,8 @@ class MDB2_Extended extends MDB2_Module_Common
         }
 
         $row = $result->fetchRow($fetchmode);
-        $stmt->free();
-        $result->free();
+        // $stmt->free();
+        // $result->free();
         return $row;
     }
 
